@@ -295,7 +295,7 @@ body {
 
 .home {
   padding-top: 300px;
-  background: url(./images/2.jpg);
+  background: url(./2.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -362,7 +362,7 @@ body {
 
 .about {
   background-color: #fff;
-  background: url(./images/2.jpg);
+  background: url(./2.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -532,7 +532,7 @@ body {
 }
 
 .facts {
-  background: url(./images/2.jpg);
+  background: url(./2.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
