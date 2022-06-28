@@ -1,517 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <!-- basic -->
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>socialight</title>
-    <link rel="stylesheet" href="styles.css" />
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
+    <title>Aparts</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/pricing.css" />
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <!-- Tweaks for older IEs-->
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap"
       rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen"
+    />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
   </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="header__container _container">
-          <a class="header__logo">
-            <svg
-              preserveAspectRatio="xMidYMid meet"
-              data-bbox="40 25 120 150"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="40 25 120 150"
-              role="img"
-              aria-labelledby="svgcid-7x3bz85g2tnm"
-            >
-              <title id="svgcid-7x3bz85g2tnm">Home</title>
-              <g>
-                <path
-                  d="M68.7 78l44.4 44-53.5 53-14.3-14.2L84.4 122 40 78l53.5-53 14.3 14.2L68.7 78zM160 39.2L145.7 25 92.2 78l53.5 53 14.3-14.2L120.9 78 160 39.2z"
-                ></path>
-              </g>
-            </svg>
-            <span>SOCIALIGHT</span>
-          </a>
-          <nav class="header__menu menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="#services" class="menu__link">services</a>
-              </li>
-              <li class="menu__item">
-                <a href="#about" class="menu__link">about us</a>
-              </li>
-              <li class="menu__item">
-                <a href="#programs" class="menu__link">programs</a>
-              </li>
-              <li class="menu__item">
-                <a href="#work" class="menu__link">work</a>
-              </li>
-              <li class="menu__item">
-                <a href="#team" class="menu__link">team</a>
-              </li>
-              <li class="menu__item">
-                <a href="#blog" class="menu__link">blog</a>
-              </li>
-              <li class="menu__item">
-                <a href="#contact" class="menu__link">contact</a>
-              </li>
-            </ul>
-            <div class="menu__log">
-              <img src="" alt="" />
-              <span>Log In</span>
-            </div>
-          </nav>
-        </div>
-      </header>
-      <main class="page">
-        <div class="home" id="home">
-          <div class="home__container _container">
-            <div class="home__title">
-              MAKING CONNECTIONS <span>DELIVERING RESULTS</span>
-            </div>
-            <div class="home__about">BUILDING YOUR SOCIAL BRAND</div>
-          </div>
-        </div>
-        <div class="services" id="services">
-          <div class="services__container _container">
-            <div class="services__line"></div>
-            <div class="services__title">OUR SERVICES</div>
-            <div class="services__row">
-              <div class="services__column column-services">
-                <div class="column-services__line"></div>
-                <div class="column-services__txt">SOCIAL MEDIA</div>
-              </div>
-              <div class="services__column column-services">
-                <div class="column-services__line"></div>
-                <div class="column-services__txt">SOCIAL MEDIA</div>
-              </div>
-              <div class="services__column column-services">
-                <div class="column-services__line"></div>
-                <div class="column-services__txt">SOCIAL MEDIA</div>
-              </div>
-              <div class="services__column column-services">
-                <div class="column-services__line"></div>
-                <div class="column-services__txt">SOCIAL MEDIA</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="about" id="about">
-          <div class="about__container _container">
-            <div class="about__txt txt">
-              <div class="txt__line"></div>
-              <div class="txt__title">WHO WE ARE</div>
-              <div class="txt__about">
-                I'm a paragraph. Click here to add your own text and edit me.
-                Its easy. Just click “Edit Text” or double click me to add your
-                own content and make changes to the font. Feel free to drag and
-                drop me anywhere you like on your page. Im a great place for you
-                to tell a story and let your users know a little more about you.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="work" id="work">
-          <div class="work__container _container">
-            <div class="work_txt txt">
-              <div class="txt__line"></div>
-              <div class="txt__title">OUR WORK</div>
-              <div class="txt__about">
-                I'm a paragraph. Click here to add your own text and edit me.
-                It’s easy. Just click “Edit Text” or double click me to add your
-                own content and make changes to the font.
-              </div>
-            </div>
-          </div>
-          <div class="work__images">
-            <div class="work__image">
-              <a href="" class="work__images-link">
-                <img
-                  src="./columbian roast.jpg"
-                  alt=""
-                  class="work__images-item"
-                />
-              </a>
-              <div class="work__images-txt">
-                <div class="work__images-title">02 Watches</div>
-                <div class="work__images-about">COMUnITY MANAGMENT</div>
-              </div>
-            </div>
-            <div class="work__image">
-              <a href="" class="work__images-link">
-                <img
-                  src="./columbian roast.jpg"
-                  alt=""
-                  class="work__images-item"
-                />
-              </a>
-              <div class="work__images-txt">
-                <div class="work__images-title">02 Watches</div>
-                <div class="work__images-about">COMUnITY MANAGMENT</div>
-              </div>
-            </div>
-            <div class="work__image">
-              <a href="" class="work__images-link">
-                <img
-                  src="./columbian roast.jpg"
-                  alt=""
-                  class="work__images-item"
-                />
-              </a>
-              <div class="work__images-txt">
-                <div class="work__images-title">02 Watches</div>
-                <div class="work__images-about">COMUnITY MANAGMENT</div>
-              </div>
-            </div>
-            <div class="work__image">
-              <a href="" class="work__images-link">
-                <img
-                  src="./columbian roast.jpg"
-                  alt=""
-                  class="work__images-item"
-                />
-              </a>
-              <div class="work__images-txt">
-                <div class="work__images-title">02 Watches</div>
-                <div class="work__images-about">COMUnITY MANAGMENT</div>
-              </div>
-            </div>
-            <div class="work__image">
-              <a href="" class="work__images-link">
-                <img
-                  src="./columbian roast.jpg"
-                  alt=""
-                  class="work__images-item"
-                />
-              </a>
-              <div class="work__images-txt">
-                <div class="work__images-title">02 Watches</div>
-                <div class="work__images-about">COMUnITY MANAGMENT</div>
-              </div>
-            </div>
-            <div class="work__image">
-              <a href="" class="work__images-link">
-                <img
-                  src="./columbian roast.jpg"
-                  alt=""
-                  class="work__images-item"
-                />
-              </a>
-              <div class="work__images-txt">
-                <div class="work__images-title">02 Watches</div>
-                <div class="work__images-about">COMUnITY MANAGMENT</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="clients" id="clients">
-          <div class="clients__container _container">
-            <div class="clients__txt txt">
-              <div class="txt__line"></div>
-              <div class="txt__title">OUR CLIENTS</div>
-              <div class="txt__about">
-                I'm a paragraph. Click here to add your own text and edit me.
-                It’s easy. Just click “Edit Text” or double click me to add your
-                own content and make changes to the font.
-              </div>
-            </div>
-            <div class="clients__logo">
-              ="./rockstar.png" alt="" />
-              <img src="./rockstar.png" alt="" />
-              <img src="./rockstar.png" alt="" />
-              <img src="./rockstar.png" alt="" />
-              <img src="./rockstar.png" alt="" />
-              <img src="./rockstar.png" alt="" />
-              <img src="./rockstar.png" alt="" />
-              <img src="./rockstar.png" alt="" />
-            </div>
-          </div>
-        </div>
-        <div class="team" id="team">
-          <div class="team__container _container">
-            <div class="team__txt txt">
-              <div class="txt__line"></div>
-              <div class="txt__title">OUR TEAM</div>
-              <div class="txt__about">
-                I'm a paragraph. Click here to add your own text and edit me.
-                It’s easy. Just click “Edit Text” or double click me to add your
-                own content and make changes to the font.
-              </div>
-            </div>
-          </div>
-          <div class="team__images">
-            <div class="team__image">
-              <a href="" class="team__images-link">
-                <img
-                  src="./columbian roast.jpg"
-                  alt=""
-                  class="team__images-item"
-                />
-              </a>
-              <div class="team__images-txt">
-                <div class="team__images-title">David Salazar</div>
-                <div class="team__images-about">Social Strategist</div>
-              </div>
-            </div>
-            <div class="team__image">
-              <a href="" class="team__images-link">
-                <img
-                  src="./columbian roast.jpg"
-                  alt=""
-                  class="team__images-item"
-                />
-              </a>
-              <div class="team__images-txt">
-                <div class="team__images-title">David Salazar</div>
-                <div class="team__images-about">Social Strategist</div>
-              </div>
-            </div>
-            <div class="team__image">
-              <a href="" class="team__images-link">
-                <img
-                  src="./columbian roast.jpg"
-                  alt=""
-                  class="team__images-item"
-                />
-              </a>
-              <div class="team__images-txt">
-                <div class="team__images-title">David Salazar</div>
-                <div class="team__images-about">Social Strategist</div>
-              </div>
-            </div>
-            <div class="team__image">
-              <a href="" class="team__images-link">
-                <img
-                  src="./columbian roast.jpg"
-                  alt=""
-                  class="team__images-item"
-                />
-              </a>
-              <div class="team__images-txt">
-                <div class="team__images-title">David Salazar</div>
-                <div class="team__images-about">Social Strategist</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="facts" id="facts">
-          <div class="facts__container _container">
-            <div class="facts__txt txt">
-              <div class="txt__line"></div>
-              <div class="txt__title">FUN FACTS</div>
-            </div>
-            <div class="facts__facts">
-              <div class="facts__column">
-                <div class="facts__column-number">106</div>
-                <div class="facts__column-title">HAPPY CLIENTS</div>
-              </div>
-              <div class="facts__column">
-                <div class="facts__column-number">106</div>
-                <div class="facts__column-title">HAPPY CLIENTS</div>
-              </div>
-              <div class="facts__column">
-                <div class="facts__column-number">106</div>
-                <div class="facts__column-title">HAPPY CLIENTS</div>
-              </div>
-              <div class="facts__column">
-                <div class="facts__column-number">106</div>
-                <div class="facts__column-title">HAPPY CLIENTS</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="contact" id="contact">
-          <div class="contact__container _container">
-            <div class="contact__txt txt">
-              <div class="txt__line"></div>
-              <div class="txt__title">GET IN TOUCH</div>
-            </div>
-            <div class="contact__block block-contact">
-              <form action="#" class="block-contact__form">
-                <label for="name">Enter Your Name</label>
-                <input
-                  type="text"
-                  name=""
-                  id="name"
-                  placeholder="Name"
-                  required
-                />
-                <label for="email">Enter Your Email</label>
-                <input
-                  type="email"
-                  name=""
-                  id="email"
-                  placeholder="Email"
-                  required
-                />
-                <label for="subject">Enter Your Subject</label>
-                <input
-                  type="text"
-                  name=""
-                  id="subject"
-                  placeholder="Subject"
-                  required
-                />
-                <label for="message">
-                  <textarea
-                    name=""
-                    id="message"
-                    cols="30"
-                    rows="8"
-                    placeholder="message"
-                  ></textarea>
-                </label>
-                <button class="btn">Submit</button>
-              </form>
-              <div class="block-contact__txt txt-contact">
-                <div class="txt-contact__title">
-                  We can't wait to hear from you
+  <!-- body -->
+  <body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+      <!-- header inner -->
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logo">
+                    <a href="index.html">Aparts & villa monte</a>
+                  </div>
                 </div>
-                <div class="txt-contact__location">
-                  500 Terry Francois Street, San Francisco, <br />
-                  CA 94158
+              </div>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+              <nav class="navigation navbar navbar-expand-md navbar-dark">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarsExample04"
+                  aria-controls="navbarsExample04"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact us</a>
+                    </li>
+                  </ul>
                 </div>
-                <a href="#" class="txt-contact__mail">info@mysite.com</a>
-                <div class="txt-contact__tell">123-456-7890</div>
-              </div>
+              </nav>
             </div>
           </div>
-        </div>
-        <footer class="footer">
-          <div class="footer__container _container">
-            <div class="footer__copy">
-              © 2023 by SociaLight. <br />
-              Proudly created with Wix.com
-            </div>
-            <div class="footer__social social">
-              <div class="social__title">Be a SociaLight and Follow Us:</div>
-              <div class="social__icon">
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-facebook"></ion-icon>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </main>
-      <div class="nav">
-        <div class="nav__block _active nav__home">
-          <a href="#home" class="nav__link nav__link0"></a>
-          <span class="nav__txt nav__txt0">home</span>
-        </div>
-        <div class="nav__block nav__services">
-          <a href="#services" class="nav__link nav__link1"></a>
-          <span class="nav__txt nav__txt1">services</span>
-        </div>
-        <div class="nav__block nav__about">
-          <a href="#about" class="nav__link nav__link2"></a>
-          <span class="nav__txt nav__txt2">About us</span>
-        </div>
-        <div class="nav__block nav__work">
-          <a href="#work" class="nav__link nav__link3"></a>
-          <span class="nav__txt nav__txt3">Work</span>
-        </div>
-        <div class="nav__block nav__clients">
-          <a href="#clients" class="nav__link nav__link4"></a>
-          <span class="nav__txt nav__txt4">Clients</span>
-        </div>
-        <div class="nav__block nav__team">
-          <a href="#team" class="nav__link nav__link5"></a>
-          <span class="nav__txt nav__txt5">team</span>
-        </div>
-        <div class="nav__block nav__facts">
-          <a href="#facts" class="nav__link nav__link6"></a>
-          <span class="nav__txt nav__txt6">facts</span>
-        </div>
-        <div class="nav__block nav__contact">
-          <a href="#contact" class="nav__link nav__link7"></a>
-          <span class="nav__txt nav__txt7">contact</span>
         </div>
       </div>
-      <div class="messenger">
-        <div class="messenger__closed _active">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="800"
-            width="1200"
-            viewBox="-149.1 -248.49675 1292.2 1490.9805"
-          >
-            <path
-              d="M497 0C217 0 0 205.1 0 482.1 0 627 59.4 752.2 156.1 838.7c8.1 7.3 13 17.4 13.4 28.3l2.7 88.4c.9 28.2 30 46.5 55.8 35.2l98.6-43.5c8.4-3.7 17.7-4.4 26.5-2 45.3 12.5 93.6 19.1 143.9 19.1 280 0 497-205.1 497-482.1S777 0 497 0zm298.4 370.9l-146 231.6c-23.2 36.8-73 46-107.8 19.9l-116.1-87.1c-10.7-8-25.3-7.9-35.9.1l-156.8 119c-20.9 15.9-48.3-9.2-34.2-31.4l146-231.6c23.2-36.8 73-46 107.8-19.9l116.1 87.1c10.7 8 25.3 7.9 35.9-.1l156.8-119c20.9-15.9 48.3 9.2 34.2 31.4z"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-            />
-          </svg>
-        </div>
-        <div class="messenger__opened">
-          <div class="messenger__opened-header header-mes">
-            <div class="header-mes__txt">
-              <div class="header-mes__title">social-media-agency</div>
-              <div class="header-mes__sub-title">
-                We’ll reply as soon as we can
+    </header>
+    <!-- end header inner -->
+    <!-- end header -->
+    <!-- banner -->
+    <section class="banner_main" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-bg">
+              <div class="padding_lert">
+                <h1>WELCOME TO APARTS&VILLA</h1>
+                <span></span>
+                <p>
+                  The best place to rest with a company or family and also to
+                  held seminars, trainings, sessions.
+                </p>
+                <a href="#villa">Read More</a>
               </div>
             </div>
-            <div class="header-mes__close">
-              <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="choose" id="villa">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="choose_box">
+              <div class="titlepage">
+                <h2>
+                  <span class="text_norlam">Choose The Perfect</span>
+                  <br />Villa
+                </h2>
+              </div>
+              <p>
+                Villa with a luxury view of Sutomore, Bar, for an excellent
+                price Ideal place, to rest with a large company or family, also
+                to held seminars, trainings, sessions, yoga retreats for
+                mini-groups. place is 2 Km far away from beach, it just takes
+                only 5 minute to drive.
+              </p>
+              <a class="read_more" href="./vila/vila.html">See More</a>
+              <div class="price">Price starts from 400€/d</div>
             </div>
           </div>
-          <div class="messenger__opened-main"></div>
-          <div class="messenger__opened-input">
-            <input type="text" name="" id="" placeholder="Type your message" />
-            <ion-icon name="happy-outline"></ion-icon>
-            <svg
-              version="1.1"
-              id="Capa_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              x="0px"
-              y="0px"
-              width="792px"
-              height="792px"
-              viewBox="0 0 792 792"
-              style="enable-background: new 0 0 792 792"
-              xml:space="preserve"
-            >
-              <g>
-                <path
-                  d="M306,150.48v459.36c0,0-6.696,96.408,91.476,96.408C486,706.248,486,609.84,486,609.84V126.72C486,126.72,486,0,360,0
-		S234,126.72,234,126.72v483.12c0,0,0,182.16,162,182.16s162-182.16,162-182.16V126.72c0-19.8-36-19.8-36,0v483.12
-		c0,0,13.104,146.16-126,146.16c-126,0-126-146.16-126-146.16V126.72c0,0,0-90.72,90-90.72s90,90.72,90,90.72v483.12
-		c0,0,0,56.809-52.524,56.809c-52.523,0-55.476-56.809-55.476-56.809V150.48C342,130.68,306,130.68,306,150.48z"
-                />
-              </g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-            </svg>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="img_box">
+                  <figure>
+                    <img src="./images/images/1.png" alt="#" class="big-img" />
+                  </figure>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="img_box">
+                  <figure>
+                    <img
+                      src="./images/images/2.png"
+                      alt="#"
+                      class="small-img"
+                    />
+                  </figure>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="img_box">
+                  <figure>
+                    <img
+                      src="./images/images/3.png"
+                      alt="#"
+                      class="small-img"
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- end choose  section -->
+    <!-- our  section -->
+    <div class="our">
+      <div class="container">
+        <div class="row d_flex">
+          <div class="col-md-6">
+            <div class="img_box">
+              <figure><img src="images//images/2.png" alt="#" /></figure>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="our_box">
+              <div class="titlepage">
+                <h2>
+                  <span class="text_norlam">Our First </span> <br />Apartament
+                </h2>
+              </div>
+              <p>
+                With sea views, APARTMANI MASLINA LUX is set in Utjeha and has a
+                restaurant, a 24-hour front desk, bar, garden, seasonal outdoor
+                pool and sun terrace. The apartment features both WiFi and
+                private parking free of charge.
+              </p>
+              <a class="read_more" href="./apart1/apart1.html">Read More</a>
+              <div class="price">Price starts from 400€/d</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our  section -->
+    <!-- about -->
+    <div id="about" class="about">
+      <div class="container-fluid">
+        <div class="row d_flex">
+          <div class="col-md-6">
+            <div class="about_text">
+              <div class="titlepage">
+                <h2>Our second Apartament</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit
+                </p>
+                <a class="read_more" href="./apart2/apart2.html">Read More</a>
+                <div class="price">Price starts from 400€/d</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about_img">
+              <figure><img src="images/4.png" alt="#" /></figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about -->
+    <!-- testimonial -->
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="./script.js"></script>
+    <!-- end testimonial -->
+    <!-- Pricing -->
+    <div class="pricing__container">
+      <div class="pricing">
+        <div class="pricing__card card">
+          <div class="card__title">Villa</div>
+          <div class="card__image"></div>
+          <div class="card__price">500$/d</div>
+          <a class="read_more" href="#">Book Now</a>
+        </div>
+        <div class="pricing__card card">
+          <div class="card__title">Apartament I</div>
+          <div class="card__image"></div>
+          <div class="card__price">500$/d</div>
+          <a class="read_more" href="#">Book Now</a>
+        </div>
+        <div class="pricing__card card">
+          <div class="card__title">Apartament II</div>
+          <div class="card__image"></div>
+          <div class="card__price">500$/d</div>
+          <a class="read_more" href="#">Book Now </a>
+        </div>
+      </div>
+    </div>
+    <!--  footer -->
+    <footer id="contact">
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="titlepage">
+                <h2 class="h2-contact">Contact Us</h2>
+              </div>
+              <div class="cont">
+                <p>Email: email@email</p>
+                <p>Email: email@email</p>
+                <p>Email: email@email</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <form id="request" class="main_form">
+                <div class="row">
+                  <div class="col-md-12">
+                    <input
+                      class="contactus"
+                      placeholder="Full Name"
+                      type="type"
+                      name="Full Name"
+                    />
+                  </div>
+                  <div class="col-md-12">
+                    <input
+                      class="contactus"
+                      placeholder="Email"
+                      type="type"
+                      name="Email"
+                    />
+                  </div>
+                  <div class="col-md-12">
+                    <input
+                      class="contactus"
+                      placeholder="Phone Number"
+                      type="type"
+                      name="Phone Number"
+                    />
+                  </div>
+                  <div class="col-md-12">
+                    <textarea
+                      class="textarea"
+                      placeholder="Message"
+                      type="type"
+                      Message="Name"
+                    >
+Message </textarea
+                    >
+                  </div>
+                  <div class="col-sm-12">
+                    <button class="send_btn">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <p>
+                  Copyright 2019 All Right Reserved By
+                  <a href="https://html.design/"> Free Html Templates</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
   </body>
 </html>
