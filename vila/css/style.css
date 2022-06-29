@@ -351,14 +351,14 @@ button {
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 440px) {
   .logo a {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
     line-height: 40px;
-    width: 250px;
+    width: 200px;
   }
 }
 
@@ -375,6 +375,11 @@ button {
   align-content: center;
   align-items: center;
   position: relative;
+}
+
+.row {
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .banner_main::after {

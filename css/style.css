@@ -408,7 +408,10 @@ button {
   flex-direction: column;
   align-items: center;
 }
-
+.row {
+  display: flex;
+  justify-content: space-between;
+}
 .text-bg span {
   color: #fff;
   font-size: 45px;
