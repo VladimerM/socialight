@@ -127,7 +127,7 @@
     z-index: 999;
   }
   .navigation.navbar-dark .navbar-nav .nav-link {
-    padding: 10px 0;
+    margin: 10px 0;
     color: #fff;
   }
   .navigation.navbar-dark .navbar-toggler {
@@ -231,7 +231,7 @@
     color: #eec237;
   }
   .navigation.navbar-dark .navbar-nav .nav-link {
-    padding: 10px 0;
+    margin: 10px 0;
     color: #fff;
   }
   .navigation.navbar-dark .navbar-toggler {
